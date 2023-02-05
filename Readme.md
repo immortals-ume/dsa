@@ -51,14 +51,14 @@ The Following Algorithms are going to be covered in the repo .
       <li> Linear Search</li>
       <li> Ternary Search</li>
    </ul>
-   <li> Sorting Algorithms 🔛 </li>
+   <li> Sorting Algorithms 🔛 Refer : <a href="Readme.md">Sorting Algos</a></li>
    <ul>
-      <li> Bubble Sort  </li>
-      <li> Insertion Sort </li>
+      <li> Bubble Sort ✔️ </li>
+      <li> Insertion Sort ✔️ </li>
       <li> Quick Sort </li>
       <li> Heap Sort </li>
       <li> Counting Sort </li>
-      <li> Merge Sort </li>
+      <li> Merge Sort ✔️ </li>
       <li> Radix Sort </li>
       <li> Bucket Sort </li>
       <li> Selection Sort </li>
