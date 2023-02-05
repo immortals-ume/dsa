@@ -51,7 +51,7 @@ The Following Algorithms are going to be covered in the repo .
       <li> Linear Search</li>
       <li> Ternary Search</li>
    </ul>
-   <li> Sorting Algorithms 🔛 Refer : <a href="src/sorting/Readme.md">Sorting Algos</a></li>
+   <li> Sorting Algorithms 🔛 Refer : <a href="src/main/java/com/immortals/algorithms/sorting/Readme.md">Sorting Algos</a></li>
    <ul>
       <li> Bubble Sort ✔️ </li>
       <li> Insertion Sort ✔️ </li>
