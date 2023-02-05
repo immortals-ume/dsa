@@ -5,10 +5,10 @@ The Following Data Structures and Algorithms are going to be covered in the repo
 ### Data Structure
 
 A data structure is a data organization, management, and storage format that is usually chosen for efficient access to
-data.
+data. The Following Data Structures are being covered .
 
 <ol>
-   <li> Linked Lists 🔛 </li>
+   <li> Linked Lists </li>
    <ul>
       <li> Singly Linked Lists</li>
       <li> Doubly Linked Lists</li>
@@ -35,6 +35,40 @@ data.
    <li> Graphs</li> 
    <li> Heaps</li>
    <li> Hash Tables </li>
+</ol>
+
+### Algorithms
+
+A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations
+The Following Algorithms are going to be covered in the repo .
+
+<ol>
+   <li> Divide And Conquer </li>
+   <li> Greedy Algorithm </li>
+   <li> Searching Algorithms  </li>
+   <ul>
+      <li> Binary Search</li>
+      <li> Linear Search</li>
+      <li> Ternary Search</li>
+   </ul>
+   <li> Sorting Algorithms 🔛 </li>
+   <ul>
+      <li> Bubble Sort  </li>
+      <li> Insertion Sort </li>
+      <li> Quick Sort </li>
+      <li> Heap Sort </li>
+      <li> Counting Sort </li>
+      <li> Merge Sort </li>
+      <li> Radix Sort </li>
+      <li> Bucket Sort </li>
+      <li> Selection Sort </li>
+   </ul>
+   <li> Dynamic Programming Algorithms </li>
+   <li> Randomised Algorithm </li>
+   <li> Multithreaded Algorithms </li> 
+   <li> Linear Algorithms </li>
+   <li> Graph Algorithms </li>
+   <li> Backtracking Algorithms</li>
 </ol>
 
 Note : Status of Topic being updated can be identified from following in front of the topic
