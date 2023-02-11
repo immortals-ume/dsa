@@ -45,13 +45,13 @@ The Following Algorithms are going to be covered in the repo .
 <ol>
    <li> Divide And Conquer </li>
    <li> Greedy Algorithm </li>
-   <li> Searching Algorithms  </li>
+   <li> Searching Algorithms ✔️ Refer : <a href="src/main/java/com/immortals/algorithms/searching/Readme.md">Searching</a></li>
    <ul>
-      <li> Binary Search</li>
-      <li> Linear Search</li>
-      <li> Ternary Search</li>
+      <li> Binary Search ✔️ </li>
+      <li> Linear Search ✔️ </li>
+      <li> Ternary Search ✔️ ️</li>
    </ul>
-   <li> Sorting Algorithms 🔛 Refer : <a href="src/main/java/com/immortals/algorithms/sorting/Readme.md">Sorting Algos</a></li>
+   <li> Sorting Algorithms 🔛 Refer : <a href="src/main/java/com/immortals/algorithms/sorting/Readme.md">Sorting</a></li>
    <ul>
       <li> Bubble Sort ✔️ </li>
       <li> Insertion Sort ✔️ </li>

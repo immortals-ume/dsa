@@ -24,8 +24,6 @@ public class MergeSort {
 
     /**
      * Recursive Approach for Merge Sort
-     *
-     * @param array
      */
     private static void sortRecursively(int[] array) {
         if (array.length > 1) {
@@ -131,6 +129,11 @@ public class MergeSort {
     }
 
 
+    /**
+     * Sort 2D Array using Merge Sort
+     *
+     * @param array 2D Array is provided
+     */
     public static void sort2DArray(int[][] array) {
         int[] sortedArray = flatten2DArray(array);
         sortedArray = mergeSort(sortedArray);
@@ -205,14 +208,15 @@ public class MergeSort {
         sort2DArray(arr);
         System.out.println("Merge Sort for 2D Array");
         for (int[] ints : arr) {
-            for (int j = 0; j < ints.length; j++) {
-                System.out.print(ints[j] + " ");
+            for (int anInt : ints) {
+                System.out.print(anInt + " ");
             }
             System.out.println();
         }
     }
 
     public static void main(String[] args) {
+
         MergeSort.mergeSort1DRecursively(new int[]{23, -23, 911, 874});
         MergeSort.mergeSort1DIteratively(new int[]{23, -23, 911, 874});
 
