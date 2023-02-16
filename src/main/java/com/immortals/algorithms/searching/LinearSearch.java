@@ -1,4 +1,4 @@
-package com.immortals.algorithms.seaching;
+package com.immortals.algorithms.searching;
 
 public class LinearSearch {
     private static int linearSearch(int[] arr, int data) {

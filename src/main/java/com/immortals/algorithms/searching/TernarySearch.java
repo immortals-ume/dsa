@@ -1,4 +1,4 @@
-package com.immortals.algorithms.seaching;
+package com.immortals.algorithms.searching;
 
 @SuppressWarnings("ALL")
 public class TernarySearch {
