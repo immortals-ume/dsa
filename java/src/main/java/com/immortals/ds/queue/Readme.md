@@ -111,7 +111,8 @@ Operations:
 
 Efficiency:
 
-      Priority queues are typically implemented using various data structures, such as binary heaps or balanced binary search trees (e.g., heap-based priority queue, or Java's PriorityQueue class uses a binary heap).
+      Priority queues are typically implemented using various data structures, such as binary heaps or balanced binary search trees (e.g., 
+      heap-based priority queue, or Java's PriorityQueue class uses a binary heap).
     
       Common operations (enqueue, dequeue, and peek) can be performed efficiently, usually in O(log n) time complexity for binary heap-based implementations, where n is the number of elements in the queue.
     
@@ -122,7 +123,7 @@ Usage:
       Priority queues are commonly used in various applications, including task scheduling, job prioritization, graph algorithms (e.g., Dijkstra's algorithm for finding the shortest path), and Huffman coding for data compression, among others.
       They are a fundamental building block for solving problems that involve scheduling or ordering based on priorities.
 
-## Circular Queue
+## Circular Queue  (<a href="CircularQueueUsingArray.java">Circular Queue With Array </a> )  / <a href="CircularQueue.java">Circular Queue</a>
 
 A circular queue, also known as a circular buffer or a ring buffer, is a data structure in computer science and
 programming that operates as a queue but has a fixed size. Unlike a regular queue, where elements are added at one end
