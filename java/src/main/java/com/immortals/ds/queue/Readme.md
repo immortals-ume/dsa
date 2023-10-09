@@ -120,7 +120,7 @@ Efficiency:
 
 Usage:
 
-      Priority queues are commonly used in various applications, including task scheduling, job prioritization, graph algorithms (e.g., Dijkstra's algorithm for finding the shortest path), and Huffman coding for data compression, among others.
+      Priority queues are commonly used in various applications, including task scheduling, job prioritization, dfs algorithms (e.g., Dijkstra's algorithm for finding the shortest path), and Huffman coding for data compression, among others.
       They are a fundamental building block for solving problems that involve scheduling or ordering based on priorities.
 
 ## Circular Queue  (<a href="CircularQueueUsingArray.java">Circular Queue With Array </a> )  / <a href="CircularQueue.java">Circular Queue</a>

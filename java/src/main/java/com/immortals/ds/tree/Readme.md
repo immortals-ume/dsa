@@ -15,7 +15,7 @@ BST-property
 
 Traversing a BST using DEPTH FIRST SEARCH
 
-    Depth First Search (DFS) algorithm traverses a graph in a depth ward motion and uses a stack to remember
+    Depth First Search (DFS) algorithm traverses a dfs in a depth ward motion and uses a stack to remember
     to get the next vertex to start a search, when a dead end occurs in any iteration.
     
     There are three ways in which we can perform Depth first Search on a BST.

@@ -2,13 +2,14 @@ package com.immortals.algorithms.graph;
 
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class Bfs {
-    private final int V; // Number of vertices
+    private final int v; // Number of vertices
     private final LinkedList<Integer>[] adj; // Adjacency list representation
 
     public Bfs(int v) {
-        V = v;
+        this.v = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; ++i) {
             adj[i] = new LinkedList<>();
@@ -26,6 +27,7 @@ public class Bfs {
 
         System.out.println("Breadth-First Traversal starting from vertex 0:");
         g.bfs(0);
+        System.out.println(" ");
         g.bfs(2);
     }
 
@@ -35,10 +37,10 @@ public class Bfs {
 
     public void bfs(int start) {
         // Create a boolean array to keep track of visited nodes
-        boolean[] visited = new boolean[V];
+        boolean[] visited = new boolean[v];
 
         // Create a queue for BFS
-        LinkedList<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
 
         // Mark the current node as visited and enqueue it
         visited[start] = true;
