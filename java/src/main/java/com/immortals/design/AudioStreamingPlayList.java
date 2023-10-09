@@ -1,13 +1,13 @@
-package com.immortals;
+package com.immortals.design;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+public class AudioStreamingPlayList {
     /**
      * audio streaming app , playlist play in Random order
-     * [String,String ]
+     * [String,String,String ]
      *
      * @param args
      */

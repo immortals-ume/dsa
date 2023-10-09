@@ -72,6 +72,7 @@ The following Algorithms will be covered : <br>
     Worst-case time complexity: O(n log n)
     Average-case time complexity: O(n log n)
     Best-case time complexity: O(n log n)
+
     Heap sort has a consistent time complexity of O(n log n) in all cases, whether it's the worst-case, average-case, or best-case scenario. This makes it an efficient sorting algorithm for large datasets.
     
     Space Complexity:

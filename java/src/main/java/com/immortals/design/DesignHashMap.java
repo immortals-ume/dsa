@@ -1,4 +1,4 @@
-package com.immortals;
+package com.immortals.design;
 
 import java.util.Arrays;
 import java.util.logging.Level;

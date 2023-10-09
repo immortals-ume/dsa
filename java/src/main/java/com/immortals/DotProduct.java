@@ -23,7 +23,7 @@ class DotProduct {
         return dp[idx1][idx2];
     }
 
-    // Main function to calculate the maximum dot product
+    // AudioStreamingPlayList function to calculate the maximum dot product
     public int maxDotProduct(int[] nums1, int[] nums2) {
         nums1Size = nums1.length;
         nums2Size = nums2.length;
