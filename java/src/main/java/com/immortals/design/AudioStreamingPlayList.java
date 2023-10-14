@@ -8,9 +8,9 @@ public class AudioStreamingPlayList {
     /**
      * audio streaming app , playlist play in Random order
      * [String,String,String ]
-     *
-     * @param args
      */
+    private static Random r;
+
     public static void main(String[] args) {
         List<String> strings = new java.util.ArrayList<>(List.of("a", "b", "c", "d"));
         for (int i = 0; i < 10; i++) {
@@ -21,15 +21,15 @@ public class AudioStreamingPlayList {
         }
     }
 
-    private static List<String> getRandomStrings(List<String> songs) {
-        Random random = new Random();
+    private static void getRandomStrings(List<String> songs) {
+        Random rnd = r;
+        if (rnd == null)
+            r = rnd = new Random();
         for (int i = songs.size() - 1; i > 0; i--) {
-            int randomIndex = random.nextInt(i + 1);
-
+            int randomIndex = rnd.nextInt(i + 1);
             String temp = songs.get(i);
             songs.set(i, songs.get(randomIndex));
             songs.set(randomIndex, temp);
         }
-        return songs;
     }
 }
