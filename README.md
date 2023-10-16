@@ -21,7 +21,7 @@ The Following DS And Algorithms are covered in this repository
          d. van Emde Boas Trees
          e. B-trees
          f. Radix Trees
-    5. Trie [Readme.md](java%2Fsrc%2Fmain%2Fjava%2Fcom%2Fimmortals%2Fds%2Ftree%2FReadme.md) (Check Out Radix Tree)
+    5. Trie 
     6. Graphs [Readme.md](java%2Fsrc%2Fmain%2Fjava%2Fcom%2Fimmortals%2Fds%2Fgraph%2FReadme.md)
     7. Hash Tables
     8. Heaps
