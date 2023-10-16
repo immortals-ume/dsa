@@ -32,8 +32,6 @@ The Following DS And Algorithms are covered in this repository
 ## Algorithms
 
 1. Divide And Conquer
-     a. Maximum Subarray problem 
-     b. Strassen Matrix Multiplication
 2. Greedy Algorithm
 3. Randomised Algorithm
 4. Dynamic programming [Readme.md](java%2Fsrc%2Fmain%2Fjava%2Fcom%2Fimmortals%2Falgorithms%2Fdp%2FReadme.md)
