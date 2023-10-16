@@ -30,7 +30,7 @@ Graphs can be directed (edges have a direction) or undirected (edges have no dir
     Adjacency List: A collection of lists (one per node) where each list contains the nodes that are adjacent to a
     particular node.
 
-###### Graph Algorithms:
+###### Graph Algorithms: [Readme.md](..%2F..%2Falgorithms%2Fgraph%2FReadme.md)
 
     Breadth-First Search (BFS): BFS explores a dfs by visiting all the neighbors of a node before moving to the next level
     of nodes. It's used for tasks like finding the shortest path in an unweighted dfs.
