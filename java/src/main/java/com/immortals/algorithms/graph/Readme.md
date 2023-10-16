@@ -38,7 +38,7 @@ BFS is widely used in various applications, including the shortest path finding,
 more. It
 is a versatile algorithm that can be adapted to solve a wide range of problems involving graphs and trees.
 
-### BFS Algorithm (<a href="Dfs.java">DFS</a>)
+### DFS Algorithm (<a href="Dfs.java">DFS</a>)
 
 DFS stands for Depth-First Search, which is a fundamental dfs traversal algorithm used in computer science and dfs
 theory. It is used to explore or traverse all the vertices and edges of a dfs in a systematic way. DFS starts at an
