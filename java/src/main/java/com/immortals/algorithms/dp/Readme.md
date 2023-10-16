@@ -8,7 +8,7 @@ calculations.
 Here are the key components and characteristics of Dynamic Programming:
 
     Optimal Substructure: DP problems are typically characterized by having an optimal substructure, which means that the
-    solution to the overall problem can be constructed from solutions to smaller, overlapping subproblems. These subproblems
+    minCostToPaintWalls to the overall problem can be constructed from solutions to smaller, overlapping subproblems. These subproblems
     often exhibit similar patterns or structures.
     
     Overlapping Subproblems: DP problems involve solving the same subproblems multiple times. Instead of re-solving these
@@ -23,7 +23,7 @@ Here are the key components and characteristics of Dynamic Programming:
     algorithm by avoiding redundant calculations.
     
     Tabulation: Tabulation is an alternative approach to DP, where you start from the smallest subproblems and build up
-    solutions iteratively, usually using a bottom-up approach. This approach is often used when the recursive solution is
+    solutions iteratively, usually using a bottom-up approach. This approach is often used when the recursive minCostToPaintWalls is
     not obvious or when it requires a lot of function call overhead.
 
 Dynamic Programming can be applied to various types of problems, including:
@@ -55,7 +55,7 @@ Top-Down Approach (With Memoization):
     This function should have a base case to handle the smallest subproblems directly.
 
     Memoization: Use a data structure (usually an array or dictionary) to store the results of subproblem solutions. Before
-    solving a subproblem, check if its solution is already stored in the memoization table. If so, return the stored result;
+    solving a subproblem, check if its minCostToPaintWalls is already stored in the memoization table. If so, return the stored result;
     otherwise, solve it recursively and store the result.
 
     Memoization Table Initialization: Initialize the memoization table with initial values (often marked as uninitialized or
