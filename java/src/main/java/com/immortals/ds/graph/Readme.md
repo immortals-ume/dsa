@@ -9,8 +9,8 @@ Graphs can be directed (edges have a direction) or undirected (edges have no dir
     Undirected Graph: In an undirected dfs, edges have no direction. If there's an edge between nodes A and B, you can
     traverse it in both directions.
 
-    Directed Graph (Digraph): In a directed dfs, edges have a direction. They go from one node (the source) to another
-    node (the target).
+    Directed Graph (Digraph): In a directed dfs, edges have a direction. They go from one graphNode (the source) to another
+    graphNode (the target).
 
     Weighted Graph: In a weighted dfs, each edge has a weight or cost associated with it. Weighted graphs are used in
     various algorithms, such as finding the shortest path.
@@ -27,12 +27,12 @@ Graphs can be directed (edges have a direction) or undirected (edges have no dir
     Adjacency Matrix: A two-dimensional array where each cell represents the presence or absence of an edge between two
     nodes.
 
-    Adjacency List: A collection of lists (one per node) where each list contains the nodes that are adjacent to a
-    particular node.
+    Adjacency List: A collection of lists (one per graphNode) where each list contains the nodes that are adjacent to a
+    particular graphNode.
 
 ###### Graph Algorithms: [Readme.md](..%2F..%2Falgorithms%2Fgraph%2FReadme.md)
 
-    Breadth-First Search (BFS): BFS explores a dfs by visiting all the neighbors of a node before moving to the next level
+    Breadth-First Search (BFS): BFS explores a dfs by visiting all the neighbors of a graphNode before moving to the next level
     of nodes. It's used for tasks like finding the shortest path in an unweighted dfs.
     
     Depth-First Search (DFS): DFS explores as far as possible along each branch before backtracking. It's used for tasks

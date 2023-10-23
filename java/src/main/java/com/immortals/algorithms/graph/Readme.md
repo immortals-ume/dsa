@@ -9,13 +9,13 @@ level.
 
 Here's how BFS works:
 
-    Start from a given source node (or starting point) in the dfs.
-    Initialize a queue data structure and enqueue the source node.
+    Start from a given source graphNode (or starting point) in the dfs.
+    Initialize a queue data structure and enqueue the source graphNode.
     While the queue is not empty:
-    a. Dequeue the node at the front of the queue.
-    b. Visit the dequeued node and process it as needed.
-    c. Enqueue all the neighboring nodes of the current node that have not been visited yet.
-    Repeat steps 3 until the queue is empty or until a specific condition is met (e.g., finding a target node).
+    a. Dequeue the graphNode at the front of the queue.
+    b. Visit the dequeued graphNode and process it as needed.
+    c. Enqueue all the neighboring nodes of the current graphNode that have not been visited yet.
+    Repeat steps 3 until the queue is empty or until a specific condition is met (e.g., finding a target graphNode).
 
 Key characteristics and properties of BFS:
 

@@ -1,6 +1,6 @@
 package com.immortals;
 
-class validateBinaryTreeNodes {
+class ValidateBinaryTreeNodes {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         int[] indegree = new int[n];
 
@@ -49,8 +49,7 @@ class validateBinaryTreeNodes {
         }
 
         visited[node] = true;
-        return isConnectedAndAcyclic(leftChild[node], leftChild, rightChild, visited)
-                && isConnectedAndAcyclic(rightChild[node], leftChild, rightChild, visited);
+        return isConnectedAndAcyclic(leftChild[node], leftChild, rightChild, visited) && isConnectedAndAcyclic(rightChild[node], leftChild, rightChild, visited);
     }
 
 }

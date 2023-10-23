@@ -37,7 +37,7 @@ supports adding and removing elements from both end
 
     Array-based Stack: This implementation uses an array to store the stack elements. It has constant-time access to elements, making it efficient for most stack operations. However, it may require resizing the array if the stack grows beyond its initial size.
 
-    Linked List-based Stack: In this implementation, a linked list data structure is used to build the stack. Each node in the linked list contains an element and a reference to the next node. This approach avoids the need for resizing as in the array-based stack, but it may have slightly more overhead due to managing nodes.
+    Linked List-based Stack: In this implementation, a linked list data structure is used to build the stack. Each graphNode in the linked list contains an element and a reference to the next graphNode. This approach avoids the need for resizing as in the array-based stack, but it may have slightly more overhead due to managing nodes.
 
     Dynamic Array Stack: Some languages and libraries provide dynamic arrays, such as Python's list or Java's ArrayList, which can be used as a stack by utilizing the built-in append and pop methods. These structures can dynamically resize themselves when needed.
 
@@ -62,7 +62,7 @@ data structures used for its implementation.
 
     Array-based Stack: In an array-based stack, the space complexity is O(n), where "n" is the maximum number of elements that can be stored in the stack. This is because you allocate an array of fixed size, and the space is proportional to that size.
 
-    Linked List-based Stack: In a linked list-based stack, the space complexity is also O(n), where "n" is the number of elements currently in the stack. Each element is stored in a separate node, and the space usage is proportional to the number of elements.
+    Linked List-based Stack: In a linked list-based stack, the space complexity is also O(n), where "n" is the number of elements currently in the stack. Each element is stored in a separate graphNode, and the space usage is proportional to the number of elements.
 
     Double-Ended Stack (Deque): If you're using a deque as a double-ended stack, the space complexity is also O(n), where "n" is the number of elements in the deque.
 

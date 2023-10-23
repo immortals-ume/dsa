@@ -1,12 +1,23 @@
 package com.immortals.ds.trie;
 
 
-
 public class Trie {
-    private TrieNode root;
+    private final TrieNode root;
 
     public Trie() {
         root = new TrieNode();
+    }
+
+    public static void main(String[] args) {
+        Trie trie = new Trie();
+
+        trie.insert("apple");
+        System.out.println(trie.search("apple")); // Output: true
+        System.out.println(trie.search("app")); // Output: false
+        System.out.println(trie.startsWith("app")); // Output: true
+
+        trie.insert("app");
+        System.out.println(trie.search("app")); // Output: true
     }
 
     public void insert(String word) {
@@ -43,18 +54,5 @@ public class Trie {
             node = node.children[index];
         }
         return true;
-    }
-
-
-    public static void main(String[] args) {
-        Trie trie = new Trie();
-
-        trie.insert("apple");
-        System.out.println(trie.search("apple")); // Output: true
-        System.out.println(trie.search("app")); // Output: false
-        System.out.println(trie.startsWith("app")); // Output: true
-
-        trie.insert("app");
-        System.out.println(trie.search("app")); // Output: true
     }
 }

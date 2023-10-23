@@ -25,7 +25,7 @@ The Following queue Implementation , going to be covered in the Repo
 Following operations can be performed on the Queue   <br>
 
 1. enqueue()
-   - loads the values in the queue.<br>
+    - loads the values in the queue.<br>
 2. dequeue()
     - removes the loaded value from the queue from front of the queue  <br>
 3. peek()
@@ -74,11 +74,11 @@ Implementation:
 
       Here's a brief explanation of how a deque works with a doubly-linked list-based implementation:
 
-      In a doubly-linked list-based deque, each element is represented as a node containing data and references to the next and previous elements.
-      The addFront operation creates a new node and updates references to insert the node at the front.
-      The addRear operation creates a new node and updates references to insert the node at the rear.
-      The removeFront operation removes the front node and updates references accordingly.
-      The removeRear operation removes the rear node and updates references accordingly.
+      In a doubly-linked list-based deque, each element is represented as a graphNode containing data and references to the next and previous elements.
+      The addFront operation creates a new graphNode and updates references to insert the graphNode at the front.
+      The addRear operation creates a new graphNode and updates references to insert the graphNode at the rear.
+      The removeFront operation removes the front graphNode and updates references accordingly.
+      The removeRear operation removes the rear graphNode and updates references accordingly.
       The peekFront and peekRear operations simply return the data of the front and rear nodes without modifying the deque's structure.
 
       Deques are a versatile data structure and find applications in various algorithms, such as deque-based breadth-first search (BFS), implementing certain data structures like a queue or stack, and solving problems that require efficient manipulation of elements at both ends of a collection.

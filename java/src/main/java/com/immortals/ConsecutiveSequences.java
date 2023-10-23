@@ -40,6 +40,7 @@ public class ConsecutiveSequences {
 
         return sequences;
     }
+
     public static void generateConsecutiveSequence(String inputString, int sequenceLength) {
         int stringLength = inputString.length();
 

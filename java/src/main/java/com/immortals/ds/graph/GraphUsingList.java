@@ -3,27 +3,17 @@ package com.immortals.ds.graph;
 import java.util.ArrayList;
 import java.util.List;
 
-class Node {
-    int value;
-    List<Node> neighbors;
-
-    public Node(int value) {
-        this.value = value;
-        this.neighbors = new ArrayList<>();
-    }
-}
-
 public class GraphUsingList {
-    List<Node> nodes;
+    List<GraphNode> graphNodes;
 
     public GraphUsingList() {
-        nodes = new ArrayList<>();
+        graphNodes = new ArrayList<>();
     }
 
     public static void main(String[] args) {
         GraphUsingList graph = new GraphUsingList();
 
-        // Adding nodes
+        // Adding graphNodes
         graph.addNode(1);
         graph.addNode(2);
         graph.addNode(3);
@@ -40,33 +30,33 @@ public class GraphUsingList {
     }
 
     public void addNode(int value) {
-        nodes.add(new Node(value));
+        graphNodes.add(new GraphNode(value));
     }
 
     public void addEdge(int from, int to) {
-        Node fromNode = findNode(from);
-        Node toNode = findNode(to);
+        GraphNode fromGraphNode = findNode(from);
+        GraphNode toGraphNode = findNode(to);
 
-        if (fromNode != null && toNode != null) {
-            fromNode.neighbors.add(toNode);
+        if (fromGraphNode != null && toGraphNode != null) {
+            fromGraphNode.neighbors.add(toGraphNode);
             // For an undirected graph, you should also add the following line:
-            // toNode.neighbors.add(fromNode);
+            // toGraphNode.neighbors.add(fromGraphNode);
         }
     }
 
-    private Node findNode(int value) {
-        for (Node node : nodes) {
-            if (node.value == value) {
-                return node;
+    private GraphNode findNode(int value) {
+        for (GraphNode graphNode : graphNodes) {
+            if (graphNode.value == value) {
+                return graphNode;
             }
         }
         return null;
     }
 
     public void printGraph() {
-        for (Node node : nodes) {
-            System.out.print("Node " + node.value + " is connected to: ");
-            for (Node neighbor : node.neighbors) {
+        for (GraphNode graphNode : graphNodes) {
+            System.out.print("GraphNode " + graphNode.value + " is connected to: ");
+            for (GraphNode neighbor : graphNode.neighbors) {
                 System.out.print(neighbor.value + " ");
             }
             System.out.println();
